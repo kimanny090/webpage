@@ -1,0 +1,154 @@
+:root{
+    --header-size: 50vh;
+    --header-text-color:rgb(236, 180, 76) ;
+    --header-text-color2: white;
+    --bg:white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+
+}
+body{
+    width: 100vw;
+    
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 5px;
+   
+    
+}
+header{
+
+    height: var(--header-size);
+    background: url(./img/pexels-hasan-albari-1229861.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header.header{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100px
+}
+.hero{
+    background-color: white;
+    padding: 10px;
+    text-align: left;  
+    color: var(--header-text-color);
+    font-weight: 700; 
+    position: fixed;
+    top: 30px;
+    width: 100%;    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    gap:32px;
+    font-size: 18px;
+    height: 32px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+
+    
+}
+li:hover, a:hover{
+    background-color: rgb(73, 150, 143);
+    color: black;
+    
+}
+.welcome{
+    text-transform: uppercase;
+    text-align:end;
+    color: var(--header-text-color);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.welcome h1{
+    color: white;
+}
+main{
+    margin-top: 70px;
+
+}
+main>article>h1{
+    text-transform: uppercase;
+    color: var(--header-text-color);
+    border-bottom: 2px solid var(--header-text-color);
+    padding-bottom: 30px;
+    margin-bottom: 32px;
+    
+}
+article{
+    margin: 0 100px 0 100px;
+    height: 30vh;
+}
+#portfolio{
+    display: flex;
+    background-color: var(--bg);
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap:5px;
+    margin-top: 4em;
+    border-top: 1px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 4em 4em;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.content{
+    max-width: 400px ;
+    height: 40vh;
+     
+ }
+.text{
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 15px 30px;
+    flex-direction: column;
+}
+footer{
+    background: url(./img/photo-1620570623737-efc0ec4ab486.jpeg) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-size:cover;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+footer>div>h3{
+    color: var(--header-text-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+footer>div{
+    width: 400px ;
+  
+}
+
